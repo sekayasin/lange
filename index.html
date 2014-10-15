@@ -46,18 +46,19 @@
 	================================================== -->
 
 	<div class="container">
-		<header class="sixteen columns">
+		<header class="five columns">
 			<h1 class="logo"><a href="index.html">Langelihle Guest Lodge</a></h1>
-			<nav class="main-nav">
-				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">info</a></li>
-					<li><a href="#">rooms</a></li>
-					<li><a href="#">attractions</a></li>
-					<li><a href="#">contact</a></li>
-				</ul>
-			</nav>
 		</header>
+
+		<nav class="main-nav eleven columns">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">info</a></li>
+				<li><a href="#">rooms</a></li>
+				<li><a href="#">attractions</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</nav>
 	</div><!-- header container-->
 
 	<div class="container">
@@ -67,10 +68,15 @@
 		</div>
 	</div>
 
-	<div class="image-carousel">
-		<div class="container">
-			<p>full-width-image-carousel-slide will load here</p>
-		</div>
+	<div class="image-carousel container">
+		<div id="slideshow" class="sixteen columns">
+			<img src="images/rooms/photo-1-940px.jpg" alt="front-house" height="400px" width="100%" class="active">
+			<img src="images/rooms/photo-2-940px.jpg" alt="front-house2" height="400px" width="100%">
+			<img src="images/rooms/photo-3-940px.jpg" alt="single-bed" height="400px" width="100%">
+			<img src="images/rooms/photo-4-940px.jpg" alt="single-bed2" height="400px" width="100%">
+			<img src="images/rooms/photo-5-940px.jpg" alt="double-bed" height="400px" width="100%">
+			<img src="images/rooms/photo-1-940px.jpg" alt="side-view" height="400px" width="100%">
+		</div><!-- slide show-->
 	</div><!-- image-carousel -->
 
 	<div class="container">
@@ -190,8 +196,9 @@
 		</div><!-- container -->
 	</footer>
 
-
 <!-- End Document
 ================================================== -->
+	<script src="js/jquery.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
