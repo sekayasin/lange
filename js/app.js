@@ -1,3 +1,4 @@
+
 function slideShow() {
     var $active = $('#slideshow img.active');
 
@@ -16,4 +17,18 @@ function slideShow() {
 
 $(function() {
     setInterval("slideShow()", 5000);
+
+    $('#portfolio').magnificPopup({
+         delegate: 'a',
+         type: 'image',
+         image: {
+             cursor: null,
+             titleSrc: 'title'
+         },
+         gallery: {
+             enabled: true,
+             preload: [0, 1], // will preload 0 - before current, and 1 after the current image
+             navigateByImgClick: true
+         }
+     });
 });
