@@ -92,8 +92,8 @@
     color: #f6f3e2;
 }
 
-/* =================== Guest rooms Gallery ================= */
-.roomGallery {
+/* =================== Guest rooms hotel Gallery ================= */
+.gallery {
     display: block;
     max-width: 940px;
     margin: 0 auto;
