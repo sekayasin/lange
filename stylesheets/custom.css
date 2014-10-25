@@ -53,7 +53,7 @@
     text-align: right;
     display: inline-block;
     vertical-align: top;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .main-nav ul li a {
@@ -171,16 +171,35 @@
 
 /* =================== Room Rates table  ================= */
 
-th, td {
+.tairport th, .tairport td {
     width: 400px;
     text-align: center;
 }
 
-td {
+.tairport td {
     border-bottom: 1px #ccc dashed;
     padding: 3px 0;
 }
 
+/* =================== Reserve Form   ================= */
+.reserve-form {
+    /*border-radius: 5px #ccc dashed;;*/
+    /*border: 1px #ccc dashed;*/
+    background-color: #fff;
+    border-bottom: 1px #ccc dashed;
+}
+
+.reserve input[type="text"] {
+    max-width: 50%;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.ui-datepicker-trigger {
+    padding: 5px;
+    margin-top: -20px;
+}
 
 /* =================== SOCIAL MEDIA LINKS ================= */
 #socialmedia {

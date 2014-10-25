@@ -31,4 +31,22 @@ $(function() {
              navigateByImgClick: true
          }
      });
+
+    $("#date-picker").datepicker({
+        minDate: new Date(),
+        buttonImage: "images/cal.png",
+        buttonImageOnly: true,
+        buttonText: "Open Datepicker",
+        showOn: "both",
+        inline: true
+    });
+
+    $("#date-picker-out").datepicker({
+        minDate: new Date(),
+        buttonImage: "images/cal.png",
+        buttonImageOnly: true,
+        buttonText: "Open Datepicker",
+        showOn: "both",
+        inline: true
+    });
 });

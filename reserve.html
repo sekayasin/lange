@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="stylesheets/layout.css">
     <link rel="stylesheet" href="stylesheets/custom.css">
     <link rel="stylesheet" href="stylesheets/magnific-popup.css">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.min.css">
 
     <!-- CSS for icon fonts
   ================================================== -->
@@ -65,6 +66,7 @@
                     <li><a href="home">Home</a></li>
                     <li><a href="rooms">rooms</a></li>
                     <li><a href="rates">room rates</a></li>
+                    <li><a href="reserve">reservation</a></li>
                     <li><a href="gallery">gallery</a></li>
                     <li><a href="conference">conference venue</a></li>
                     <li><a href="airport">Airport Shuttles</a></li>
@@ -75,14 +77,59 @@
     </div><!-- nav-span -->
 
     <div class="container">
-        <section class="main-content">
-            <div class="row airport">
-                <div class="sixteen columns">
-                    <h3>Reservation</h3>
-                    <p>Reserve work! Hangon! Still in Development by our Developers</p>
+        <div class="sixteen columns">
+            <h3>Send Request For Your Reservation</h3>
+        </div>
+        <div class="row airport">
+            <form action="#" class="reserve-form clearfix">
+                <div class="third column">
+                    <label for="room" class="remove-bottom">Choose your desired type of room:</label>
+                    <select name="room" id="room">
+                        <option value="single">Single Room</option>
+                        <option value="double">Double Room</option>
+                        <option value="twin">Twin Beds</option>
+                    </select>
+
+                    <label for="adults">Number of Adults</label>
+                    <select name="adults" id="adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6 (Maximum Limit)</option>
+                    </select>
+
+                    <label for="children">Number of Children</label>
+                    <select name="children" id="children">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6 (Maximum Limit)</option>
+                    </select>
+
+                    <label for="email">Your Email Address</label>
+                    <input type="email" placeholder="email@mydomain.com" id="email">
                 </div>
-            </div><!--  reserve -->
-        </section><!-- main-content -->
+
+                <div class="third column reserve">
+                    <label for="checkin">Choose Check-in date</label>
+                    <input type="text" placeholder="dd/mm/yy" id="date-picker">
+                </div>
+
+                <div class="third column reserve">
+                    <label for="checkin">Choose Check-out date</label>
+                    <input type="text" placeholder="dd/mm/yy" id="date-picker-out"> <br>
+                    <button type="submit">Send Reservation Request</button>
+                </div>
+            </form>
+
+            <div class="sixteen columns">
+                <p><em>*Please note that this is not an actual reservation, but only a request for one.</em> <br><strong>We will contact you for a confirmation shortly after. Thank you!</strong></p>
+            </div>
+        </div><!--  reserve -->
     </div><!-- container -->
 
     <footer>
@@ -138,6 +185,7 @@
 ================================================== -->
     <script src="js/jquery.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
