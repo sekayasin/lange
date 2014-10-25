@@ -38,6 +38,7 @@ $(function() {
         buttonImageOnly: true,
         buttonText: "Open Datepicker",
         showOn: "both",
+        dateFormate: "dd/mm/yy",
         inline: true
     });
 
@@ -47,6 +48,7 @@ $(function() {
         buttonImageOnly: true,
         buttonText: "Open Datepicker",
         showOn: "both",
+        dateFormate: "dd/mm/yy",
         inline: true
     });
 });
