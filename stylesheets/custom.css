@@ -185,8 +185,6 @@
 
 /* =================== Reserve Form   ================= */
 .reserve-form {
-    /*border-radius: 5px #ccc dashed;;*/
-    /*border: 1px #ccc dashed;*/
     background-color: #fff;
     border-bottom: 1px #ccc dashed;
 }
@@ -201,6 +199,32 @@
 .ui-datepicker-trigger {
     padding: 5px;
     margin-top: -20px;
+}
+
+/* =================== conference image center otherstyles   ================= */
+.conf h3 {
+    text-align: center;
+}
+
+.conf img {
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:#fff;
+    border-radius: 5px;
+}
+
+.conf img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* =================== airport image otherstyles   ================= */
+.air img {
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:#000;
+    border-radius: 5px;
 }
 
 /* =================== SOCIAL MEDIA LINKS ================= */
