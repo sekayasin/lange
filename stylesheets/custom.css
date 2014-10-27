@@ -135,11 +135,11 @@
     margin: 0 auto;
 }
 
-#portfolio {
+.portfolio, .portfolio2  {
     display: block;
 }
 
-#portfolio li {
+.portfolio li, .portfolio2 li {
     display: block;
     float: left;
     width: 30%;
@@ -148,7 +148,7 @@
     margin-bottom: 20px;
 }
 
-#portfolio li a {
+.portfolio li a, .portfolio2 li a {
     display: block;
     padding: 8px;
     background: #fff;
@@ -160,7 +160,7 @@
     -moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-#portfolio li a img {
+.portfolio li a img, .portfolio2 li a img {
     border: 0;
     max-width: 100%;
 }
