@@ -1,0 +1,30 @@
+#wrapper {
+  text-align: center;
+}
+
+.logo_div {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.ribbon_div {
+  background: url("../img/ribbon.png") no-repeat 0px 0px;
+  margin: 0 auto;
+  width: 1035px;
+  height: 43px;
+  text-align: center;
+}
+
+.header_div {
+  background: url('../img/header.jpg');
+  margin: 0 auto;
+  width: 926px;
+  height: 286px;
+}
+
+
+
+
+
+
+
