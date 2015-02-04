@@ -1,0 +1,260 @@
+/* =================== HEADER ================= */
+.header-bg {
+    background-image: url('../images/banner-shade.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.header-txt h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #1f497d;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.4);
+    background: rgba(145, 135, 123, 0.4);
+}
+
+.header-txt h4 {
+    font-variant: small-caps;
+    text-align: center;
+    color: #fff;
+    background: rgba(145, 135, 123, 0.4);
+}
+
+.logo, .header-txt {
+    margin-top: 10px;
+}
+
+.logo {
+    width: 244px;
+    height: 158px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+}
+
+.logo a {
+    text-align: center;
+}
+
+.nav-span {
+    background-color: #444;
+}
+
+.main-nav {
+    display: inline-block;
+}
+
+.main-nav ul li {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    color: #f6f3e2;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tagline {
+    border-bottom: 4px double #555;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* =================== SLIDE SHOW ================= */
+.image-carousel {
+    margin-bottom: 20px;
+}
+
+#slideshow {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+#slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+}
+
+#slideshow img.active {
+    z-index: 10;
+}
+
+#slideshow img.last-active {
+    z-index: 9;
+}
+
+/* =================== FEATURE ICONS ================= */
+.green { background-color: #7d9b5b; }
+.blue { background-color: #5b8d9b; }
+.orange { background-color: #d1b561; }
+
+.feature-icons .one-third.green:hover { background-color: #8eaa6f; }
+.feature-icons .one-third.blue:hover { background-color: #739fac; }
+.feature-icons .one-third.orange:hover { background-color: #dbc172; }
+
+.feature-icons i { font-size: 80px; }
+
+.feature-icons .one-third {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+    transition: background-color .5s
+    -webkit-transition: background-color .5s
+    -moz-transition: background-color .5s
+    -o-transition: background-color .5s
+}
+
+.feature-icons .one-third a {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: #f6f3e2;
+}
+
+/* =================== Guest rooms hotel Gallery ================= */
+.gallery {
+    display: block;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.portfolio, .portfolio2  {
+    display: block;
+}
+
+.portfolio li, .portfolio2 li {
+    display: block;
+    float: left;
+    width: 30%;
+    max-width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio li a, .portfolio2 li a {
+    display: block;
+    padding: 8px;
+    background: #fff;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio li a img, .portfolio2 li a img {
+    border: 0;
+    max-width: 100%;
+}
+
+.mfp-title {
+    font-size: 1.2em;
+    color: #ddd !important;
+    font-weight: 700;
+}
+
+/* =================== Room Rates table  ================= */
+
+.tairport th, .tairport td {
+    width: 400px;
+    text-align: center;
+}
+
+.tairport td {
+    border-bottom: 1px #ccc dashed;
+    padding: 3px 0;
+}
+
+/* =================== Reserve Form   ================= */
+.reserve-form {
+    background-color: #fff;
+    border-bottom: 1px #ccc dashed;
+}
+
+.reserve input[type="text"] {
+    max-width: 50%;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.ui-datepicker-trigger {
+    padding: 5px;
+    margin-top: -20px;
+}
+
+/* =================== conference image center otherstyles   ================= */
+.conf h3 {
+    text-align: center;
+}
+
+.conf img {
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:#fff;
+    border-radius: 5px;
+}
+
+.conf img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* =================== airport image otherstyles   ================= */
+.air img {
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:#000;
+    border-radius: 5px;
+}
+
+/* =================== SOCIAL MEDIA LINKS ================= */
+#socialmedia {
+    text-align: center;
+}
+
+#socialmedia ul {
+    list-style: none;
+}
+
+#socialmedia ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#socialmedia ul li img {
+    border-radius: 10%;
+}
+
+/* =================== FOOTER ================= */
+footer {
+    background-color: #444;
+    color: #f6f3e2;
+    border-top: 4px solid #666;
+    padding: 20px 10px;
+}
+
+footer a {
+    color: #f6f3e2;
+    text-decoration: none;
+}
+
